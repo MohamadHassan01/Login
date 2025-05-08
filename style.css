@@ -95,7 +95,7 @@ button {
 }
 button:hover {
     color: #b019a1;
-    background: radial-gradient( #FFF,#a5539d 90%);
+    background: radial-gradient( #FFF,#a5539d 99%);
     /* color: #fff; */
 }
 .wrapper .register-link {
@@ -118,7 +118,7 @@ button:hover {
 @media (max-width: 499px) {
     .wrapper {
         padding: 20px 30px;
-        width: 80%;
+        width: 450px;
     }
     .wrapper h1 {
         font-size: 25px;
@@ -128,11 +128,15 @@ button:hover {
     }
 
     .remember-forgot {
-        display: flex;
-        font-size: 11.5px;
+        /* display: block; */
+        font-size: 10.5px;
+    }
+    .remember-forgot label {
+        margin-right: 140px;
+        margin-top: 2px;
     }
     .wrapper .btn {
-        font-size: 12px;
+        font-size: 13px;
     }
     .wrapper .register-link {
         font-size: 11.5px;
@@ -154,7 +158,7 @@ button:hover {
     }
 
     .remember-forgot label {
-        margin-left: -47px;
+        margin-left: -87px;
         margin-top: 2px;
     }
     .remember-forgot {
