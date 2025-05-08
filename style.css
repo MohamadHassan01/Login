@@ -65,7 +65,7 @@ body {
 }
 
 .remember-forgot label {
-    /* margin-left: -47px; */
+    margin-left: -47px;
     margin-top: 2px;
 }
 
@@ -77,6 +77,7 @@ body {
     text-decoration: underline;
 }
 .wrapper .btn {
+    font-size: 16px;
     width: 100%;
     height: 45px;
     border: none;
@@ -84,19 +85,18 @@ body {
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    font-size: 16px;
     font-weight: 600;
 }
 button {
     background-color: #fff;
     color: #a5539d;
 
-    transition: 0.7s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 button:hover {
-    color: #b019a1;
-    background: radial-gradient( #FFF,#a5539d 90%);
-    /* color: #fff; */
+    color: #a5539d;
+
+    background-color: #ebe9e9;
 }
 .wrapper .register-link {
     font-size: 14.5px;
@@ -115,24 +115,28 @@ button:hover {
 
 /* ================== >  Media Phone< ====================== */
 
-@media (max-width: 499px) {
+@media (max-width: 599px) {
     .wrapper {
         padding: 20px 30px;
-        width: 80%;
+        width: 450px;
     }
     .wrapper h1 {
         font-size: 25px;
     }
     .input-box input {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .remember-forgot {
-        display: block;
+        /* display: block; */
         font-size: 12.5px;
     }
+    .remember-forgot label {
+        margin-right: 115px;
+        margin-top: 2px;
+    }
     .wrapper .btn {
-        font-size: 13px;
+        font-size: 16px;
     }
     .wrapper .register-link {
         font-size: 12.5px;
@@ -141,10 +145,10 @@ button:hover {
 
 /* ================== >  Media Tablets < ====================== */
 
-@media (min-width: 500px)  {
+@media (min-width: 600px) (max-width: 1024px){
     .wrapper {
         padding: 20px 30px;
-        width: 30%;
+        width: 450px;
     }
     .wrapper h1 {
         font-size: 25px;
@@ -154,7 +158,7 @@ button:hover {
     }
 
     .remember-forgot label {
-        margin-left: -47px;
+        margin-right: -87px;
         margin-top: 2px;
     }
     .remember-forgot {
@@ -166,4 +170,32 @@ button:hover {
     .wrapper .register-link {
         font-size: 12.5px;
     }
+}
+
+@media (min-width: 1025px) {
+    .wrapper {
+        padding: 20px 30px;
+        width: 450px;
+    }
+    .wrapper h1 {
+        font-size: 36px;
+    }
+    .input-box input {
+        font-size: 16px;
+    }
+
+    .remember-forgot label {
+        margin-right: 80px;
+        margin-top: 2px;
+    }
+    .remember-forgot {
+        font-size: 14.5px;
+    }
+    .wrapper .btn {
+        font-size: 16px;
+    }
+    .wrapper .register-link {
+        font-size: 14.5px;
+    }
+
 }
