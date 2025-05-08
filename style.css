@@ -91,7 +91,7 @@ button {
     transition: 0.7s ease-in-out;
 }
 button:hover {
-    background: linear-gradient(to right top, #fff, rgb(21, 137, 172) 55%);
+    background: linear-gradient(to right top, #fff, rgb(89, 204, 239) 55%);
     color: #fff;
 }
 .wrapper .register-link {
