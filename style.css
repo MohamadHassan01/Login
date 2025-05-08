@@ -115,7 +115,6 @@ button:hover {
     .wrapper {
         padding: 20px 30px;
         width: 80%;
-
     }
     .wrapper h1 {
         font-size: 25px;
@@ -137,7 +136,6 @@ button:hover {
 }
 
 /* ================== >  Media Tablets < ====================== */
-
 
 @media (min-width: 500px) (max-width: 700px) {
     .wrapper {
